@@ -1,0 +1,14 @@
+.boxShadowSpecial{
+    border-radius: 200px 0px 0px 200px;
+    -webkit-border-radius: 200px 0px 0px 200px;
+    -moz-border-radius: 200px 0px 0px 200px;
+    background: #158cba;
+    content:"";
+    display: block;
+    height: 25%;
+    position: fixed;
+    top: 15%;
+    left: 75%;
+    width: 100%;
+    z-index: -1;
+    }
