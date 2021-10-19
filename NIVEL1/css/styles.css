@@ -4,9 +4,9 @@
     -moz-border-radius: 200px 0px 0px 200px;
     background: #158cba;
     display: block;
-    height: 30%;
+    height: 45%;
     position: absolute;
-    top: 15%;
+    top: 30%;
     left: 65%;
     width: 35%;
     z-index: -1;
@@ -18,9 +18,9 @@
     -moz-border-radius: 0px 200px 200px 0px;
     background: #158cba;
     display: block;
-    height: 30%;
+    height: 45%;
     position: absolute;
-    top: 75%;
+    top: 130%;
     left: 0%;
     width: 50%;
     z-index: -1;
