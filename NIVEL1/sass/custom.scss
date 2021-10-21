@@ -1,2 +1,23 @@
-
+$principal:#5265E1;
+$secundario: #FA5959;
+$success1:#b3a98d;
+$primary: $principal;
+$secondary: $secundario;
+$success: $success1;
+$enable-shadows:true;
 @import "../node_modules/bootstrap/scss/bootstrap";
+.btn-primary {
+    border-bottom: 3px solid gray;
+}
+
+.btn-secondary {
+    border-bottom: 3px solid gray;
+}
+
+.btn-danger {
+    border-bottom: 3px solid gray;
+}
+
+.btn-success {
+    border-bottom: 3px solid gray;
+}
