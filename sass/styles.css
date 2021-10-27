@@ -4,11 +4,11 @@
     -moz-border-radius: 200px 0px 0px 200px;
     background: #158cba;
     display: block;
-    height: 45%;
+    height: 280px;
     position: absolute;
-    top: 30%;
-    left: 65%;
-    width: 35%;
+    top: 25%;
+    right: 0;
+    width: 75%;
     z-index: -1;
 }
 
@@ -18,11 +18,11 @@
     -moz-border-radius: 0px 200px 200px 0px;
     background: #158cba;
     display: block;
-    height: 45%;
+    height: 280px;
     position: absolute;
-    top: 130%;
-    left: 0%;
-    width: 50%;
+    top: 35%;
+    left: 0;
+    width: 75%;
     z-index: -1;
 }
 
