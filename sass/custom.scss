@@ -1,23 +1,64 @@
-$principal:#5265E1;
-$secundario: #FA5959;
-$success1:#b3a98d;
-$primary: $principal;
-$secondary: $secundario;
-$success: $success1;
-$enable-shadows:true;
-@import "../node_modules/bootstrap/scss/bootstrap";
-.btn-primary {
-    border-bottom: 3px solid gray;
-}
-
-.btn-secondary {
-    border-bottom: 3px solid gray;
-}
-
-.btn-danger {
-    border-bottom: 3px solid gray;
-}
-
-.btn-success {
-    border-bottom: 3px solid gray;
-}
+        $primary: #5265E1;
+        $secondary: #FA5959;
+        $success: #b3a98d;
+        $enable-shadows:true;
+        @import "../node_modules/bootstrap/scss/bootstrap";
+        .btn-primary {
+            border-bottom: 3px solid gray;
+        }
+        
+        .btn-primary:hover {
+            background-color: transparent;
+            color: #5265E1;
+            outline: 2px solid #5265E1;
+        }
+        
+        .btn-secondary {
+            border-bottom: 3px solid gray;
+        }
+        
+        .btn-secondary:hover {
+            background-color: transparent;
+            color: #FA5959;
+            outline: 2px solid #FA5959;
+        }
+        
+        .btn-danger {
+            border-bottom: 3px solid gray;
+        }
+        
+        .btn-danger:hover {
+            background-color: transparent;
+            color: red;
+            outline: 2px solid red;
+        }
+        
+        .btn-success {
+            border-bottom: 3px solid gray;
+        }
+        
+        .btn-success:hover {
+            background-color: transparent;
+            color: gray;
+            outline: 2px solid gray;
+        }
+        
+        .navbar-light .navbar-nav .nav-link:hover {
+            color: red;
+        }
+        
+        .nav-tabs>li>a:hover {
+            color: red !important;
+        }
+        
+        .accordion-button:hover {
+            color: red;
+        }
+        
+        a.nav-link:hover {
+            color: red !important;
+        }
+        
+        a.nav-link>img:hover {
+            background-color: red !important;
+        }
